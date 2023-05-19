@@ -1,0 +1,66 @@
+    Display current weather information: Create a set of fake 
+    weather data objects representing the current weather.
+    Each object should contain information such as temperature, 
+    weather condition, humidity, wind speed, and an icon
+    representing the weather condition. Display this data in a 
+    user-friendly way.
+
+    Support multiple locations: Allow users to select from a 
+    predefined list of locations. When a location is chosen,
+     display the corresponding fake weather data for that location.
+
+    Five-day forecast: Create a set of fake weather data objects 
+    representing the five-day forecast for each location.
+     Display the forecasted data, including date, weather condition,
+      temperature range, and an icon representing the
+      weather condition for each day.
+
+    Unit conversion: Provide an option for users to toggle between 
+    different units of measurement, such as Celsius and
+    Fahrenheit, for displaying temperatures. Implement the conversion
+     logic in your code.
+nam
+    Styling and User Experience: Design the app with a clean and
+     user-friendly interface. Ensure that the weather
+    information is visually appealing, easily readable, and properly 
+    organized. Use CSS or a UI library
+    (such as Material-UI) to enhance the app's appearance.
+
+    Error handling: Implement proper error handling for cases like 
+    invalid location selections. Display
+    error messages to users when necessary.
+
+To simulate the weather data for testing, you can use the following 
+example format for the fake data:
+
+javascript
+
+const fakeWeatherData = [
+  {
+    location: "New York",
+    temperature: 25,
+    condition: "Sunny",
+    humidity: 60,
+    windSpeed: 10,
+    icon: "sun",
+  },
+  {
+    location: "London",
+    temperature: 18,
+    condition: "Cloudy",
+    humidity: 75,
+    windSpeed: 15,
+    icon: "cloud",
+  },
+  // Add more fake data objects for other locations
+];
+
+Use the above fakeWeatherData array to display the weather
+ information for each location.
+
+By simulating the weather data and not relying on external 
+dependencies, you can focus solely
+on implementing the app's functionality and showcasing your
+ React skills. Remember to design a clear structure,
+create reusable components, and deliver a visually appealing 
+and user-friendly interface. Good luck with your coding interview!
